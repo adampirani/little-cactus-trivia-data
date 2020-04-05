@@ -1,0 +1,10 @@
+{
+  "leagueInfoById": {
+    "name": "league-info-by-id",
+    "text": "SELECT id, name, current_week, num_reg_season_weeks, has_divisions FROM leagues WHERE id = $1"
+  },
+  "teamsByLeague": {
+    "name": "teams-by-league",
+    "text": "SELECT id, name, division FROM teams WHERE league=$1"
+  }
+}

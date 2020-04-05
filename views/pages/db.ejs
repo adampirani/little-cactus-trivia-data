@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <% include ../partials/header.ejs %>
-</head>
+  <head>
+    <% include ../partials/header.ejs %>
+  </head>
 
-<body>
+  <body>
+    <% include ../partials/nav.ejs %>
+    <div class="container">
+      <h2>Database Results</h2>
 
-<% include ../partials/nav.ejs %>
+      <% tables.forEach(function(table) { %>
+        <h3><%= table.tableName %></h3>
 
-<div class="container">
-<h2>Database Results</h2>
-
-<ul>
-    <% results.forEach(function(r) { %>
-        <li><%= r.id %> - <%= r.name %></li>
-    <% }); %>
-</ul>
-
-</div>
-
-</body>
+        <% if (table.tableRows.length > 0) { %>
+          <table class="table">
+            <tr>
+              <% Object.keys(table.tableRows[0]).forEach(function(rowKey) { %>
+                <th><%= rowKey %></th>
+              <% }); %>
+            </tr>
+            <% table.tableRows.forEach(function(row) { %>
+              <tr>
+                <% Object.keys(row).forEach(function(rowKey, index) { %>
+                  <td><%= row[rowKey] %></td>
+                <% }); %>
+              </li>
+              <% }); %>
+          </table>
+        <% } %>
+      <% }); %>
+    </div>
+  </body>
 </html>

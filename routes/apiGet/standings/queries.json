@@ -1,0 +1,6 @@
+{
+  "playedGamesWithEndsByLeague": {
+    "name": "played-games-with-ends-by-league",
+    "text": "SELECT week, sheet, games.id, top_team, bottom_team, ends.number AS end_number, ends.score, ends.scoring_team FROM games INNER JOIN ends ON games.id=ends.game_id WHERE league=$1 AND week<=$2 ORDER BY week ASC, sheet ASC, end_number ASC"
+  }
+}

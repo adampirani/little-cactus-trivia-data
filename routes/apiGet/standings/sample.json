@@ -1,0 +1,18 @@
+{
+  "league": {
+    "id": "f-2018-s-l",
+    "name": "Fall 2018 Sunday Late"
+  },
+  "teams": [
+    {
+      "id": 1,
+      "name": "No Sweep Till Brooklyn",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "points": 8,
+      "endsWon": 18,
+      "highEnd": 4
+    }
+  ]
+}

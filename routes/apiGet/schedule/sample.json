@@ -1,0 +1,367 @@
+{
+  "league": {
+    "id": "2019-f-s-e",
+    "name": "2019 Fall Sunday Early",
+    "currentWeek": 2
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "games": [
+        {
+          "sheet": 2,
+          "id": "2019-f-s-e-1-2",
+          "teams": {
+            "top": {
+              "id": "2019-f-s-e-1",
+              "name": "Sweep With the Fishes"
+            },
+            "bottom": {
+              "id": "2019-f-s-e-2",
+              "name": "Hammer Time"
+            }
+          },
+          "ends": [
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 0
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "sheet": 3,
+          "id": "2019-f-s-e-1-3",
+          "teams": {
+            "top": {
+              "id": "2019-f-s-e-3",
+              "name": "Game of Stones"
+            },
+            "bottom": {
+              "id": "2019-f-s-e-4",
+              "name": "Wham!"
+            }
+          },
+          "ends": [
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 0
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 2
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "sheet": 4,
+          "id": "2019-f-s-e-1-4",
+          "teams": {
+            "top": {
+              "id": "2019-f-s-e-5",
+              "name": "Swept Away"
+            },
+            "bottom": {
+              "id": "2019-f-s-e-6",
+              "name": "Stone Cold"
+            }
+          },
+          "ends": [
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 3
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "sheet": 5,
+          "id": "2019-f-s-e-1-5",
+          "teams": {
+            "top": {
+              "id": "2019-f-s-e-8",
+              "name": "Serial Sweepers"
+            },
+            "bottom": {
+              "id": "2019-f-s-e-7",
+              "name": "Mjölnir"
+            }
+          },
+          "ends": [
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 2
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "games": [
+        {
+          "sheet": 1,
+          "id": "2019-f-s-e-2-1",
+          "teams": {
+            "top": {
+              "id": "2019-f-s-e-7",
+              "name": "Mjölnir"
+            },
+            "bottom": {
+              "id": "2019-f-s-e-1",
+              "name": "Sweep With the Fishes"
+            }
+          },
+          "ends": [
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 2
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 2
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "sheet": 2,
+          "id": "2019-f-s-e-2-2",
+          "teams": {
+            "top": {
+              "id": "2019-f-s-e-3",
+              "name": "Game of Stones"
+            },
+            "bottom": {
+              "id": "2019-f-s-e-5",
+              "name": "Swept Away"
+            }
+          },
+          "ends": [
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "sheet": 3,
+          "id": "2019-f-s-e-2-3",
+          "teams": {
+            "top": {
+              "id": "2019-f-s-e-2",
+              "name": "Hammer Time"
+            },
+            "bottom": {
+              "id": "2019-f-s-e-4",
+              "name": "Wham!"
+            }
+          },
+          "ends": [
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 2
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "sheet": 4,
+          "id": "2019-f-s-e-2-4",
+          "teams": {
+            "top": {
+              "id": "2019-f-s-e-8",
+              "name": "Serial Sweepers"
+            },
+            "bottom": {
+              "id": "2019-f-s-e-6",
+              "name": "Stone Cold"
+            }
+          },
+          "ends": [
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 0
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 2
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "top",
+              "score": 1
+            },
+            {
+              "isBlank": false,
+              "scoringTeam": "bottom",
+              "score": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

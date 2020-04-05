@@ -1,0 +1,22 @@
+{
+  "numEndsForGame": {
+    "name": "num-ends-for-game",
+    "text": "SELECT COUNT(*) FROM ends WHERE game_id = $1"
+  },
+  "deleteGameEnds": {
+    "name": "delete-game-ends",
+    "text": "DELETE FROM ends WHERE game_id = $1"
+  },
+  "addGameEnds": {
+    "name": "add-game-ends",
+    "text": "INSERT INTO ends VALUES ($1, $2, $3, $4)"
+  },
+  "updateGameTeams": {
+    "name": "update-game-teams",
+    "text": "UPDATE games SET top_team = $2, bottom_team = $3 WHERE id = $1"
+  },
+  "updateGameSubmission": {
+    "name": "update-game-submission",
+    "text": "UPDATE games SET date_submitted = $2, submitted_by = $3 WHERE id = $1"
+  }
+}

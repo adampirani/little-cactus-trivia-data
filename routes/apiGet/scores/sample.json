@@ -1,0 +1,46 @@
+{
+  "id": 1,
+  "teams": {
+    "top": {
+      "id": 1,
+      "name": "NSTB"
+    },
+    "bottom": {
+      "id": 2,
+      "name": "NYC Stoners"
+    }
+  },
+  "hammer": "bottom",
+  "ends": [
+    {
+      "isBlank": false,
+      "scoringTeam": "top",
+      "score": 3
+    },
+    {
+      "isBlank": false,
+      "scoringTeam": "top",
+      "score": 3
+    },
+    {
+      "isBlank": false,
+      "scoringTeam": "top",
+      "score": 3
+    },
+    {
+      "isBlank": false,
+      "scoringTeam": "top",
+      "score": 3
+    },
+    {
+      "isBlank": false,
+      "scoringTeam": "top",
+      "score": 3
+    },
+    {
+      "isBlank": false,
+      "scoringTeam": "top",
+      "score": 3
+    }
+  ]
+}

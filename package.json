@@ -8,13 +8,18 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "start-dev": "env $(cat .env) nodemon 'heroku local'",
     "test": "node test.js"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "ejs": "^2.5.6",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "pg": "^7.18.2"
   },
   "devDependencies": {
+    "nodemon": "^2.0.2",
     "request": "^2.81.0",
     "tape": "^4.7.0"
   },
